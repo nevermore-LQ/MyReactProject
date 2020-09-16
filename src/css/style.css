@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Piedra&family=Roboto+Slab:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Piedra&family=Sora:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@1000&family=Piedra&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap");
+
+.title {
+  font-size: 2em;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-style: italic;
+  color: rgb(2, 141, 141);
+}
+
+.carousel {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.caption {
+  font-size: 1.2em;
+  font-family: "Sora", sans-serif;
+  font-style: italic;
+}
+
+.intro {
+  width: 75%;
+  margin: 30px auto;
+}
+
+.footer-row1 {
+  color: white;
+  background-color: #003b59;
+  text-align: center;
+  padding: 20px 0 0 0;
+  font-size: 0.8em;
+}
+
+.footer-title {
+  font-family: "Dancing Script", cursive;
+}
+
+.footer-link {
+  color: white;
+  margin: 10px;
+}
+
+.flights-hero {
+  background: url(../image/space-bg-2.jpg) center center no-repeat;
+  background-size: cover;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flights-title {
+  font-size: 3rem;
+  color: white;
+  letter-spacing: 3px;
+}
+
+.flights-wrapper {
+  margin: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 200px));
+  gap: 5rem;
+}
+
+.thumbnail-img {
+  width: 100%;
+  height: 80%;
+  object-fit: fill;
+}
+
+.thumbnail {
+  text-align: center;
+  color: #003b59;
+}
+
+.thumbnail :hover {
+  text-decoration: none;
+}
+
+.book-block {
+  border: black 0.15rem solid;
+  border-radius: 0.5rem;
+}
+
+.book-title {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+
+.book-form {
+  font-size: 0.8rem;
+}
+
+.book-form label {
+  display: block;
+}
